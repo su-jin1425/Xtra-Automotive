@@ -1,43 +1,36 @@
-# Cropsky - Web Development Repository
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Welcome to **Cropsky**'s web development repository! This project is part of our mission to revolutionize agriculture, defense, and architecture using advanced technologies like drones, AI, and blockchain. Our platform offers a range of services, from crop health monitoring to predictive analytics and real-time weather integration.
+## Getting Started
 
----
+First, run the development server:
 
-## 🌐 Overview
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-This repository houses the front-end and back-end code for Cropsky's web platform. Here, users can explore features like:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- **Crop Monitoring Dashboard** – Track crop health in real-time.
-- **Predictive Analytics** – Get forecasts for crop yield and weather conditions.
-- **Farmer Education Portal** – Access resources for best farming practices.
-- **Blockchain Integration** – Ensure traceability and transparency in crop production.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-The platform is developed using modern web technologies to provide a seamless user experience.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
----
+## Learn More
 
-## 🚀 Features
+To learn more about Next.js, take a look at the following resources:
 
-- **Real-Time Crop Health Monitoring** – Analyze crops using multispectral camera data and AI-based insights.
-- **Blockchain-Enabled Crop Traceability** – Track every stage of crop production.
-- **3D Field Mapping** – Visualize topography and field boundaries.
-- **Automated Reporting** – Generate compliance and operational reports.
-- **Responsive Design** – Access the platform on mobile, tablet, or desktop.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
----
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## 🛠️ Tech Stack
+## Deploy on Vercel
 
-The web platform is built using the following technologies:
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- **Frontend**: React, Tailwind CSS, Chart.js, Mapbox
-- **Backend**: Node.js, Express.js, MongoDB
-- **Blockchain**: Hyperledger Fabric
-- **AI/ML Integration**: TensorFlow.js for client-side AI operations
-- **GIS Integration**: Q-GIS, Mapbox for geospatial data
-- **Authentication**: OAuth 2.0
-- **Deployment**: Docker, AWS (S3, EC2)
-
----
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
