@@ -13,7 +13,7 @@ const Navbar = () => {
       {/* MOBILE */}
       <div className="h-full flex items-center justify-between md:hidden">
         <Link href="/">
-          <div className="text-2xl tracking-wide">CropSky</div>
+          <div className="text-2xl tracking-wide">Xtra Automotive</div>
         </Link>
         <Menu />
       </div>
@@ -22,8 +22,8 @@ const Navbar = () => {
         {/* LEFT */}
         <div className="w-1/3 xl:w-1/2 flex items-center gap-12">
           <Link href="/" className="flex items-center gap-3">
-            <Image src="/logo.png" alt="" width={24} height={24} />
-            <div className="text-2xl tracking-wide">CropSky</div>
+            <Image src="/xtra favicon.png" alt="" width={24} height={24} />
+            <div className="text-2xl tracking-wide">Xtra Automotive</div>
           </Link>
           <div className="hidden xl:flex gap-4">
             <Link href="/">Homepage</Link>

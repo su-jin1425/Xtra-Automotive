@@ -8,7 +8,7 @@ import { WixClientContextProvider } from "@/context/wixContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "CropSky Shop",
+  title: "Xtra Automotive",
   description: "",
 };
 

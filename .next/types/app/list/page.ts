@@ -1,4 +1,4 @@
-// File: C:\Users\sujit\Downloads\eco m\cropsky\src\app\list\page.tsx
+// File: C:\Users\sujit\Downloads\xtra\cropsky\src\app\list\page.tsx
 import * as entry from '../../../../src/app/list/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

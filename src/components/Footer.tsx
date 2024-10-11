@@ -9,19 +9,19 @@ const Footer = () => {
         {/* LEFT */}
         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
           <Link href="/">
-            <div className="text-2xl tracking-wide">CropSky</div>
+            <div className="text-2xl tracking-wide">Xtra Automotive</div>
           </Link>
           <p>
-            <a href="https://www.google.com/maps/place/Technology+Tower+-+TT/@12.970784,79.159527,16z/data=!4m6!3m5!1s0x3bad47a1c31ff897:0x25b8753e051621bd!8m2!3d12.9707838!4d79.1595271!16s%2Fg%2F1tjrndtn?hl=en&entry=ttu&g_ep=EgoyMDI0MDkxNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" >VIT University Vellore,<br />
-            Tamil Nadu, 632014, India</a>
+            <a href="https://maps.app.goo.gl/rYWYhni3fSr4n7s47" target="_blank" >Thangam Nagar Main Rd, Bosepet,<br/>
+            Gudiyatham, Tamil Nadu 635806</a>
           </p>
-          <a href="mailto:cropsky@gmail.com" className="font-semibold">Cropsky@gmail.com</a>
-          <span className="font-semibold">+1 234 567 890</span>
+          <a href="mailto:xtraautomotiveo7@gmail.com" className="font-semibold">xtraautomotiveo7@gmail.com</a>
+          <span className="font-semibold">+91 637 975 7870</span>
           <div className="flex gap-6">
-            <Image src="/facebook.png" alt="" width={16} height={16} />
-            <Image src="/instagram.png" alt="" width={16} height={16} />
-            <Image src="/youtube.png" alt="" width={16} height={16} />
-            <Image src="/x.png" alt="" width={16} height={16} />
+            <a href="https://chat.whatsapp.com/CGYkZTNQ0dX2yXMKyBhZkH " target="_blank" ><Image src="/whatsapp.svg" alt="" width={16} height={16} /></a>
+            <a href="https://www.instagram.com/xtra_automotive_/?igsh=ODd5cXU0YjRiZXlq" target="_blank" ><Image src="/instagram.png" alt="" width={16} height={16} /></a>
+            <a href="https://www.youtube.com/@xtraautomotive" target="_blank" ><Image src="/youtube.png" alt="" width={16} height={16} /></a>
+            <a href="https://maps.app.goo.gl/rYWYhni3fSr4n7s47" target="_blank" ><Image src="/map.svg" alt="" width={16} height={16} /></a>
           </div>
         </div>
         {/* CENTER */}
